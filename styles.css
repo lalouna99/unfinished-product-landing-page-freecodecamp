@@ -1,0 +1,163 @@
+#nav-bar {
+    position: sticky;
+    top: 0;
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+  }
+
+
+  #nav-bar ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px; 
+  }
+
+  #nav-bar li {
+    margin: 0 15px;
+    display: inline-block;
+    margin-right: 10px;
+    
+  }
+
+  #nav-bar li:last-child {
+    margin-right: 0;
+  }
+
+  #nav-bar li::after {
+    content: "|";
+    margin-left: 10px;
+    color: #efefef;
+    font-size: 20px
+  }
+  #nav-bar li::before {
+    content: "|";
+    margin-right:  10px;
+    color: #efefef;
+    font-size: 20px;
+  }
+
+  .nav-link {
+    text-decoration: none;
+    color: #fbfbfb; 
+    font-size: 14px;
+    background-color: rgba(30, 39, 24, 0.7);
+  }
+  .nav-link:hover {
+    background-color: #a96e6f;
+  }
+
+
+@media screen and (max-width: 600px) {
+body {
+  font-size: 15px;
+
+}
+}
+
+header {
+  align-items: center;
+  text-align: center;
+  padding: 20px 0;
+  color: rgb(68, 65, 65);
+
+ 
+}
+
+#header-img {
+  width: 40%
+  
+}
+
+#watch_video {
+  align-items: center;
+  text-align: center;
+  padding: auto;
+  color: rgb(0, 0, 0);
+  background-color: #eef9f3;
+  
+}
+h1 {
+    position: sticky;
+    top: 0;
+    color: rgb(3, 3, 3); 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    background-color: #eef9f3;
+
+}
+
+#audience_reviews {
+  align-items: center;
+  text-align: center;
+  padding: auto;
+  
+  font: 14px;
+  color: rgb(9, 9, 9);
+  background-color: #eef9f3;
+  
+
+}
+
+h2 {
+  position: sticky;
+  top: 0;
+  color: rgb(6, 6, 6);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+  background-color: #eef9f3;
+
+}
+
+#fan_art {
+  align-items: center;
+  text-align: center;
+  padding: auto;
+
+  font: 14px;
+  color: rgb(13, 13, 13);
+  background-color: #eef9f3;
+  
+
+}
+
+h3 {
+  position: sticky;
+  top: 0;
+  color: black 
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+  background-color: #eef9f3;
+
+}
+
+#hero {
+  align-items: center;
+  text-align: center;
+  padding: auto;
+  background-color: #eef9f3;
+  font: 14px;
+  color: rgb(48, 47, 47)
+  
+}
+
+
+header {
+  background-image: url("https://cdna.artstation.com/p/assets/images/images/045/653/362/large/carson-lowmiller-legendsandlattesmed.jpg?1643218194");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+footer {
+    align-items: center;
+    text-align: center;
+    padding: auto;
+    background-color: #eef9f3;
+    font: 14px;
+  
+}
